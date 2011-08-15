@@ -1,0 +1,237 @@
+div, p, span, a, h1, h2, h3
+{
+	font-family:Arial;	
+}
+
+h1, h2, h3, h4
+{
+	font-weight:normal;
+}
+
+*
+{
+	padding:0px;
+	margin:0px;
+}
+
+img
+{
+	border:none;
+}
+
+body
+{
+	background-image:url('/images/bg_all.jpg');
+	background-repeat:repeat-x;
+	background-color:#fff;
+	text-align:center;
+}
+
+#Background
+{
+	height:auto;
+	min-height:519px;
+	background-image:url('/images/bg_header.jpg');
+	background-repeat:no-repeat;
+	background-position:top center;
+	text-align:center;
+}
+
+	#Background #ContentHeader
+	{
+		position:relative;
+		text-align:left;
+		width:995px;
+		min-height:520px;
+		height:auto;
+		
+		margin:auto;
+	}
+	
+		#Background #ContentHeader #Menu
+		{
+			position:absolute;
+			top:330px;
+		}
+		
+			#Background #ContentHeader #Menu ul
+			{
+
+			}
+			
+			#Background #ContentHeader #Menu li
+			{
+				list-style-type:none;
+				width:243px;
+				height:2px;
+				background-image:url('/images/bg_menu_off.png');
+				background-repeat:no-repeat;
+				cursor:pointer;
+				font-size:14px;
+				color:#001c81;
+				padding:30px 0px 0px 35px;
+			}
+			
+			#Background #ContentHeader #Menu li:hover
+			{
+				background-image:url('/images/bg_menu_on.png');
+				background-repeat:no-repeat;
+			}
+			
+			#Background #ContentHeader #Menu li a
+			{
+				color:#001c81;
+				text-decoration:none;
+			}
+		
+		#Background #ContentHeader #Chamada
+		{
+			font-size:15px !important;
+			text-align:center;
+			top:426px;
+			left:303px;
+			position:absolute;
+			width:381px;
+			color:#626262;
+		}
+		
+		#Background #ContentHeader #Like
+		{
+			font-size:14px !important;
+			top:346px;
+			left:708px;
+			position:absolute;
+			width:253px;
+			color:#54659b !important;
+			text-transform:uppercase;
+		}
+		
+		#Content, #SocialMedia
+		{
+			position:relative;
+			text-align:left;
+			width:995px;
+			min-height:300px;
+			height:auto;
+			margin:auto;
+			padding-bottom:20px;
+		}
+		
+			#Background #Content #BoxLeft
+			{
+				float:left;
+				width:531px;
+				height:auto;
+			}
+			
+				#Background #Content #BoxLeft p
+				{
+					font-size:15px;
+					color:#626262;
+					text-align:justify;
+				}
+			
+			
+			
+				#Background #Content #BoxLeft h1
+				{
+					font-size:18px;
+					color:#f2336b;
+					
+				}
+			
+			#Background #Content #BoxRight
+			{
+				float:right;
+				width:435px;
+				height:auto;
+			}
+			
+				#Background #Content #BoxRight h1
+				{
+					font-size:18px;
+					color:#374987;
+					
+				}
+			
+			#Background #SocialMedia
+			{
+				
+			}
+			
+				#Background #SocialMedia h2
+				{
+					font-size:25px;
+					color:#34457b;
+				}
+				
+				#Background #SocialMedia #Comments
+				{
+					float:left;
+					width:600px;
+					min-height:520px;
+					height:auto;
+				}
+				
+				#Background #SocialMedia #Facebook
+				{
+					float:right;
+					width:360px;
+					height:auto;
+				}
+				
+				#Background #SocialMedia #Twitter
+				{
+					float:right;
+					width:360px;
+					height:auto;
+				}
+			
+/*-------------------------INTERNAS*/
+#Interna
+{
+	text-align:left;
+}
+
+	#Interna p
+	{
+		text-align:justify;
+	}
+	
+	#Interna h1
+	{
+		font-size:18px;
+		color:#374987;
+	}
+	
+	#Interna hr
+	{
+		border:1px solid #374987;
+		margin:10px 0px 10px 0px;
+	}
+	
+
+.vintequatro
+{
+	font-size:24px !important;
+}	
+.lines
+{
+	width:100%;
+	height:17px;
+	margin-top:24px;
+	background-image:url('/images/bg_linha_header.gif');
+	background-repeat:repeat-x;
+}
+.lineInt
+{
+	width:100%;
+	height:11px;
+	background-image:url('/images/bg_linha.gif');
+	background-repeat:repeat-x;
+	margin-bottom:16px;
+}
+.clear
+{
+	clear:both;
+}

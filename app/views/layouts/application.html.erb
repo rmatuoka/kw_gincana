@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Campanha Jovens Solidários - Eu Curto Solidariedade!!</title>
+  <%= stylesheet_link_tag "template" %>
+  <%= stylesheet_link_tag "fancybox/jquery.fancybox-1.3.4" %>
+  <%= javascript_include_tag "jquery" %>
+  <%= javascript_include_tag "fancybox/jquery.mousewheel-3.0.4.pack.js" %>
+  <%= javascript_include_tag "fancybox/jquery.fancybox-1.3.4.pack.js" %>
+  <%= csrf_meta_tag %>
+
+	<meta name="title" content="Campanha Jovens Solidários - Eu Curto Solidariedade!!" />
+	<meta name="url" content="http://www.jovenssolidarios.com.br" />
+	<meta name="description" content="A Gincana Estudantil da Solidariedade é uma ação social promovida pela Rede Vanguarda, afiliada Globo nas regiões do Vale do Paraíba, Bragantina, Serra da Mantiqueira e Litoral Norte. O objetivo da gincana é mobilizar diretores, professores, televisão e comunidade para que, juntos, todos arrecadem alimentos que, ao fim da campanha, são doados a entidades assistenciais de cada região participante."/>
+	<meta name="keywords" content="jovens, jovem, gincana, vanguarda, atibaia, doação, ajuda, solidariedade" />
+	<meta name="autor" content="Rafael Matuoka Chiocchetti" />
+	<meta name="company" content="Kore.wa Web" />
+	<meta name="revisit-after" content="5" />
+	<link rev="made" href="mailto:rmatuoka@korewa.com.br" />
+
+	<script>
+	$(document).ready(function() {
+		$("#Menu ul li a").fancybox({
+			'width'				: '75%',
+			'height'			: '75%',
+			'autoScale'			: false,
+			'transitionIn'		: 'none',
+			'transitionOut'		: 'none',
+			'type'				: 'iframe'
+		});
+	});
+	</script>
+
+</head>
+<body>
+<div class="lines"></div>
+<div id="Background">
+	<div id="ContentHeader">
+		<div id="Menu">
+			<ul>
+				<li><a id="campanha" href="/campanha">A Campanha</a></li>
+				<li><a id="campanha" href="/oque_arrecadamos">O que Já Arrecadamos ?</a></li>
+				<li><a id="campanha" href="/pontos_de_arrecadacao">Pontos de Arrecadação</a></li>
+				<li><a id="campanha" href="/regulamento">Regulamento</a></li>
+			</ul>
+		</div>
+		
+		<div id="Chamada">
+			<p>A cada "curtir" que a fan page  receber, <span class="vintequatro">um quilo de alimento</span> será doado à campanha.</p>
+		</div>
+		
+		<div id="Like">
+			<p>Clique aqui para curtir e doar.</p><br>
+			<iframe src="http://www.facebook.com/plugins/like.php?app_id=150097841738671&amp;href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FJovens-Solid%C3%A1rios%2F122926874470860&amp;send=false&amp;layout=standard&amp;width=230&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=45" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:230px; height:45px;" allowTransparency="true"></iframe>
+		</div>
+	</div>
+	
+	<div id="Content">
+		<div class="lineInt"></div>
+		<div id="BoxLeft">
+			<h1>Conheça a Gincana!</h1>
+			<hr>
+			<p>
+A Gincana Estudantil da Solidariedade é uma ação social promovida pela Rede Vanguarda, afiliada Globo nas regiões do Vale do Paraíba, Bragantina, Serra da Mantiqueira e Litoral Norte. <%=image_tag("img_dest.jpg", :align => "left", :style => "margin:5px;")%> O objetivo da gincana é mobilizar diretores, professores, televisão e comunidade para que, juntos, todos arrecadem alimentos que, ao fim da campanha, são doados a entidades assistenciais de cada região participante. <br>
+Na primeira fase da campanha, arrecada-se arroz e os municípios que atingem a meta avançam para a segunda fase, para, então, arrecadarem feijão. 
+Este ano a escola representante de Atibaia é o Colégio FAAT. Durante o evento, diversas atividades recreativas são realizadas pelas escolas concorrentes.  Todo alimento arrecadado pelo Colégio será encaminhado ao Fundo Social de Solidariedade para que seja distribuído entre as entidades da Cidade.
+O evento da segunda etapa, para arrecadação de feijão, será no dia 2 de setembro, no no Ginásio do Elefantão, às 14h. 
+				
+				
+			</p>
+		</div>
+		
+		<div id="BoxRight">
+			<h1>Amigos dos JOVENS SOLIDÁRIOS</h1>
+			<hr>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="SocialMedia">
+		<div class="lineInt"></div>
+		
+		<h2>FALA AÍ !!!</h2>
+		
+		<div id="Comments">
+			<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="http://www.facebook.com/pages/Jovens-Solidários/122926874470860" num_posts="3" width="590"></fb:comments>
+		</div>
+		
+		<div id="Facebook">
+			<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FJovens-Solidários%2F122926874470860&amp;width=355&amp;colorscheme=light&amp;show_faces=true&amp;stream=false&amp;header=false&amp;height=260" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:355px; height:260px;" allowTransparency="true"></iframe>
+		</div>
+		
+		<div id="Twitter">
+			<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+			<script>
+			new TWTR.Widget({
+			  version: 2,
+			  type: 'profile',
+			  rpp: 4,
+			  interval: 6000,
+			  width: 355,
+			  height: 553,
+			  theme: {
+			    shell: {
+			      background: '#54649b',
+			      color: '#ffffff'
+			    },
+			    tweets: {
+			      background: '#ffffff',
+			      color: '#000000',
+			      links: '#54649b'
+			    }
+			  },
+			  features: {
+			    scrollbar: true,
+			    loop: true,
+			    live: false,
+			    hashtags: true,
+			    timestamp: true,
+			    avatars: true,
+			    behavior: 'default'
+			  }
+			}).render().setUser('jovem_solidario').start();
+			</script>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<%= yield %>
+<div class="lines"></div>
+<div id="Footer">
+	
+</div>
+</body>
+</html>

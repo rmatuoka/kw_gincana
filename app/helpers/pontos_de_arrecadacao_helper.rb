@@ -1,0 +1,2 @@
+module PontosDeArrecadacaoHelper
+end
