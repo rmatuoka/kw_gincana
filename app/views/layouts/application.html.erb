@@ -73,10 +73,10 @@ O evento da segunda etapa, para arrecadação de feijão, será no dia 2 de sete
 		<div id="BoxRight">
 			<h1>Amigos dos JOVENS SOLIDÁRIOS</h1>
 			<hr>
-			<%=link_to(image_tag("logos/atibaia.jpg"), "http://www.atibaia.sp.gov.br/portal/")%>
-			<%=link_to(image_tag("logos/big.jpg"), "http://www.bigsupermercados.com.br/")%>
-			<%=link_to(image_tag("logos/bilheteria.jpg"), "http://www.bilheterianet.com.br/")%>
-			<%=link_to(image_tag("logos/faat.jpg"), "http://www.faat.edu.br")%>
+			<%=link_to(image_tag("logos/atibaia.jpg"), "http://www.atibaia.sp.gov.br/portal/", :target => "_blank")%>
+			<%=link_to(image_tag("logos/big.jpg"), "http://www.bigsupermercados.com.br/", :target => "_blank")%>
+			<%=link_to(image_tag("logos/bilheteria.jpg"), "http://www.bilheterianet.com.br/", :target => "_blank")%>
+			<%=link_to(image_tag("logos/faat.jpg"), "http://www.faat.edu.br", :target => "_blank")%>
 			<%=image_tag("logos/rodrigo.jpg")%>
 		</div>
 		<div class="clear"></div>
@@ -134,7 +134,8 @@ O evento da segunda etapa, para arrecadação de feijão, será no dia 2 de sete
 <%= yield %>
 <div class="lines"></div>
 <div id="Footer">
-	
+	<%=link_to(image_tag("logos/korewa.jpg"), "http://www.korewa.com.br", :target => "_blank")%>
+	<%=link_to(image_tag("logos/sato7.jpg"), "http://www.sato7.com.br", :target => "_blank")%>
 </div>
 </body>
 </html>
